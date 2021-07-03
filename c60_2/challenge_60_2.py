@@ -1,0 +1,1 @@
+print(*[((n:=int(input()))*(n+1)*(2*n+1))//6 for i in "e"*int(input())],sep="\n")

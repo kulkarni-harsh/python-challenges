@@ -1,0 +1,1 @@
+print(*[''.join([z*(ord(z.upper())-64)for z in input()[::-1]])for _ in'e'*int(input())],sep='\n')

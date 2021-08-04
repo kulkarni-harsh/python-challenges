@@ -1,0 +1,1 @@
+for _ in[i:=input]*int(i()):print('0x'+f'{int(i(),16)^0xFFFFFF:X}'.zfill(6))

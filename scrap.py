@@ -6,7 +6,9 @@
 # print(a,b)
 # a="1Z"
 # b="0123456789ABCDEF"
-# print(int(a,16))
-print(max("ABCDZDA"))
-print(list("ABC DEF ASC"))
+# # print(int(a,16))
+# print(max("ABCDZDA"))
+# print(list("ABC DEF ASC"))
     
+a=input()
+print(*[a[i]*int(a[i-1])for i in range(1,len(a),2)],sep='')

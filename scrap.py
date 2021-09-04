@@ -10,5 +10,7 @@
 # print(max("ABCDZDA"))
 # print(list("ABC DEF ASC"))
     
-a=input()
-print(*[a[i]*int(a[i-1])for i in range(1,len(a),2)],sep='')
+# a=input()
+# print(*[a[i]*int(a[i-1])for i in range(1,len(a),2)],sep='')
+
+print(type(set().add(5)))
